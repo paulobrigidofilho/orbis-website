@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: darkkhaki;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Merriweather", serif;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== MAIN AND USER NAVS ===== */
+
+#orbisLogo {
+  width: 14vh;
+  height: 14vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+nav {
+  display: flex;
+  background-color: rgba(32, 32, 14, 0.934);
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  gap: 18vh;
+  text-shadow: 2px 2px black;
+}
+
+nav > a {
+  text-decoration: none;
+  color: darkkhaki;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  margin: 2px 5px;
+  padding: 14px 20px;
+}
+
+nav > a:hover {
+  background: rgb(20, 20, 15);
+  color: rgb(230, 221, 105);
+  cursor: pointer;
+}
+
+.userNav {
+  position: absolute;
+  height: 8vh;
+  top: 10px;
+  right: 0;
+  gap: 0vh;
+}
+
+.userNav > img {
+  font-weight: bold;
+  text-align: center;
+  font-size: 5vh; 
+  background-color: aqua;
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+  text-align: center;
+  margin-top: auto;
+}
+
+p > a {
+  color: darkkhaki;
+  margin-left: 10px; 
+}
+
+p > a:hover {
+  color: rgb(230, 221, 105);
+}
+
+/* ===== ABOUT US DIV ===== */
+
+.aboutUs {
+    background-color: rgba(47, 47, 23, 0.934);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+  }
+  
+  .usImg {
+    flex-direction: column;
+    margin-right: 10vh;
+  }
+  
+  .usImg > h1 {
+    text-align: center;
+  }
+  
+  .usImg > img {
+    height: 28vh;
+    margin-top: -2vh;
+    text-align: center;
+  }
+  
+  div > p {
+    text-align: justify;
+    padding: 4px;
+    margin-right: 1px;
+    margin-top: 4vh;
+    font-size: 16px;
+    max-width: 120vh;
+  }
+
+  

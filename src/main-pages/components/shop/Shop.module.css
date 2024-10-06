@@ -1,0 +1,33 @@
+
+/* ===== SHOP Nav Bar - HEADER and Search in SHOP Field ===== */
+
+#search-items {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+  #searchButton {
+    background-color: black;
+    color: darkkhaki;
+    border: 0px;
+    font-size: 16px;
+    margin-left: 8px;
+  }
+  
+  #searchButton:hover {
+    color: rgb(230, 221, 105);
+  }
+  
+  /* ===== SHOP Items Display and Filter ===== */
+  
+  #shop-filter {
+    justify-content: left;
+    border: 2px solid darkkhaki;
+    padding: 10px;
+    gap: 6px;
+  }
+  
+  #shop-filter:hover {
+    color: rgb(230, 221, 105);
+  }
